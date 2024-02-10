@@ -1,0 +1,6 @@
+9000 13.02.2022 praca 1
+62 14.02.2022 rozprawa 1
+18 15.03.2022 odszkodowanie 1
+423 18.06.2023 targ 1
+1000 27.07.2023 auto 1
+17 27.07.2023 kieszonkowe 1

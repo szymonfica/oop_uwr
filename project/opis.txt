@@ -1,0 +1,55 @@
+Szymon Fica
+
+Projekt: Planowanie budżetu
+
+Napisałem program wspomagający panowanie nad budżetem.
+Program gromadzi dane o dochodach i płatnościach wraz z terminami i podziałem
+na kategorie według priorytetu oraz udostępnia metody pomagające przeprowadzenie
+analizy planowanego budżetu i różnice pomiędzy planowany a rzeczywistym budżetem.
+
+Dane w programie są pobierane z plików tesktowych .txt załączonych w zadaniu oraz wypisywany
+wynik jest równiez zapisywany w pliku wynik.txt
+
+
+Spis klas:
+
+- Budżet
+    Klasa Budżet to główna klasa w projekcie,
+    przechowuje wszystkie dane o budżecie i udostępnia metody
+    pomagające analizę planowanego budżetu.
+
+    Metoda plan_bilans_dnia() zwraca planowany bilans przychodów i wydatków danego dnia
+    Metoda rzecz_bilans_dnia() zwraca rzeczywisty bilans przychodów i wydatków danego dnia
+    Metoda analiza_planu() zwraca true/false w zależności czy pewnego dnia wydatki przekraczają przychody
+    Metoda analiza_planu_dzien() zwraca datę pierwszego dnia w którym planowany bilans budżetu jest ujemny
+    Metoda pelna_analiza() wypisuje pełną analizę z podziałem na priorytety od 1 do 10
+    Metoda roznica_wydatkow() zwraca różnicę pomiędzy planowanymi a rzeczywistymi wydatkami
+    Metoda roznica_przychodow() zwraca różnicę pomiędzy planowanymi a rzeczywistymi przychodami
+
+
+- Przychody_lub_wydatki
+    Klasa przechowuje planowane i rzeczywiste przychody/wydatki.
+
+    Metoda roznica() zwraca różnice pomiędzdy planowanymi i rzeczywistymi przychodami/wydatkami
+
+- ListofEvent
+    Klasa Listofevents służy do przechowywania listy obiektów klasy Event,
+    będzie to lista wydatków lub przychodów.
+
+    Metoda add_event() dodania nowego obiektu Event do listy
+    Metoda get_by_name() zwraca Event z listy o nazwie podanej w argumencie 'key'
+    Metoda get_sum_by_date zwraca sumę wszystkich obiektów z podanego dnia w argumencie 'd'
+    Metoda get_sum() zwraca sumę wszystkich obiektów
+    Metoda max_pref() zwraca maksymalną sumę na pewnym prefiksie posortowanym po dacie 
+    Metoda min_pref() zwraca minimalną sumę na pewnym prefiksie posortowanym po dacie 
+    Metoda min_pref_day() zwraca dzień w której stan konta jest najmniejszy
+    Metoda sort() sortuje listę przechowywanych obiektów
+    Metoda mul() przemnaża kwotę każdego obiektu w liście przez argument
+
+- Event
+    Klasa Event reprezentuje pojedyńczy wydatek lub przychód,
+    każdy obiekt zawiera cztery wartości podawane w konstruktorze:
+    kwota, data, nazwa i piorytet.
+
+    Metoda get_date() zwraca datę obiektu przeliczoną w odowiedni sposób ze stringa na inta,
+    metoda jest używana do porównywania dwóch obiektów przy sortowaniu

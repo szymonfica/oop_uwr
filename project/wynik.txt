@@ -1,0 +1,22 @@
+Nazwa budżetu: Domowy.
+
+Bilans planowanego budżetu z podziałem na kategorie o priorytetach od 1 do 10:
+
+Bilans przychodów i wydatków o priorytecie 10 jest dodatni.
+Bilans przychodów i wydatków o priorytecie 9 jest dodatni.
+Bilans przychodów i wydatków o priorytecie 8 jest dodatni.
+Bilans przychodów i wydatków o priorytecie 7 jest dodatni.
+Bilans przychodów i wydatków o priorytecie 6 jest dodatni.
+Wydatki o priorytecie 5 przekraczają przychody od dnia 15.03.2022.
+Wydatki o priorytecie 4 przekraczają przychody od dnia 15.03.2022.
+Wydatki o priorytecie 3 przekraczają przychody od dnia 15.03.2022.
+Wydatki o priorytecie 2 przekraczają przychody od dnia 15.03.2022.
+Wydatki o priorytecie 1 przekraczają przychody od dnia 13.02.2022.
+
+
+Planowany bilans dnia: 13.02.2022: 7677
+Planowany bilans dnia: 27.07.2023: -405
+
+Różnica pomiędzy planowanymi a rzeczywistymi przychodami wynosi: -1954
+Różnica pomiędzy planowanymi a rzeczywistymi wydatkami wynosi: 1627
+
